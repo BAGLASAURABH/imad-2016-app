@@ -7,6 +7,7 @@
          <div class="center">
             <img src="/ui/madi.png" class="img-medium"/>
          </div>
+         <p id="demo">Click me.</p>
          <br>
         <div class="center text-big bold">
              Hi! I am Saurabh and this is my first webapp.
@@ -14,7 +15,10 @@
          </div>
          
          <script type="text/javascript" src="/ui/main.js">
-         <element onclick="myScript">
+        document.getElementById("demo").onclick = function() {myFunction()};
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
          </script>
      </body>
  </html>
