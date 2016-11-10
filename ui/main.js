@@ -1,2 +1,2 @@
 console.log('Loaded!');
-object.onclick=function(){myScript};
+object.onclick=function(hello){myScript};
