@@ -1,2 +1,5 @@
 console.log('Loaded!');
-confirm('are you ready to go ?');
+function myFunction() {
+    document.getElementById("ui/main").innerHTML = "YOU CLICKED ME!";
+    
+}
