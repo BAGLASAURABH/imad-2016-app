@@ -1,2 +1,2 @@
 console.log('Loaded!');
-confirm('are you ready to go ?')
+confirm('are you ready to go ?');
