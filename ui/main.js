@@ -84,7 +84,7 @@ if (cat11) { $("#category11").show("slow"); };
 }
     });});
 
-alert('hi i m javascript');
+alert('Hi! Welcome to Saurabh's first app.);
 function Hello()
 {
     alert("Hello, World");
